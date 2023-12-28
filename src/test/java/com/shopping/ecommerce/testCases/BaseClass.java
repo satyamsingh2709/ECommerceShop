@@ -33,9 +33,8 @@ public class BaseClass {
 	public void setUp(String br) {
 		
 		if(br.equals("Chrome")) {
-			ChromeOptions option = new ChromeOptions();
-			option.addExtensions(new File("./Extensions/AdBlock.crx"));
-			driver=new ChromeDriver(option);	
+
+			driver=new ChromeDriver();	
 		} else if(br.equals("Firefox")) {
 			driver = new FirefoxDriver();			
 		} else if(br.equals("IE")){
@@ -45,17 +44,17 @@ public class BaseClass {
 		driver.manage().window().maximize();			
 		driver.get(url);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-		String mainWindowHandle = driver.getWindowHandle(); // Store the current window handle
-		System.out.println(mainWindowHandle);
-		Set<String> windowHandles = driver.getWindowHandles(); // Get all window handles
-		for (String handle : windowHandles) {
-			System.out.println(handle);
-		    if (!handle.equals(mainWindowHandle)) {
-		        driver.switchTo().window(handle); // Switch to the pop-up window
-		        driver.close();
-		        driver.switchTo().window(mainWindowHandle);
-		    }
-		}
+//		String mainWindowHandle = driver.getWindowHandle(); // Store the current window handle
+//		System.out.println(mainWindowHandle);
+//		Set<String> windowHandles = driver.getWindowHandles(); // Get all window handles
+//		for (String handle : windowHandles) {
+//			System.out.println(handle);
+//		    if (!handle.equals(mainWindowHandle)) {
+//		        driver.switchTo().window(handle); // Switch to the pop-up window
+//		        driver.close();
+//		        driver.switchTo().window(mainWindowHandle);
+//		    }
+//		}
 	}
 	
 	@AfterClass
