@@ -1,0 +1,14 @@
+com\shopping\ecommerce\utilities\GenerateExtentReport.class
+com\shopping\ecommerce\utilities\ReadConfig.class
+com\shopping\ecommerce\testCases\LoginTest_TC002.class
+com\shopping\ecommerce\testCases\LoginTest_TC001.class
+com\shopping\ecommerce\testCases\SignupTest_TC001.class
+com\shopping\ecommerce\testCases\StandAlone.class
+com\shopping\ecommerce\testCases\BuyProductTest_TC001.class
+com\shopping\ecommerce\pageObjects\ProductsPage.class
+com\shopping\ecommerce\pageObjects\PaymentsPage.class
+com\shopping\ecommerce\utilities\FileReader.class
+com\shopping\ecommerce\pageObjects\Login_SignUpPage.class
+com\shopping\ecommerce\pageObjects\HomePage.class
+com\shopping\ecommerce\pageObjects\CartPage.class
+com\shopping\ecommerce\testCases\BaseClass.class

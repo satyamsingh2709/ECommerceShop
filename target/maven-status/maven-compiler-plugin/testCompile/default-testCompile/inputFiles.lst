@@ -1,0 +1,14 @@
+D:\Automation\ECommerceShop\src\test\java\com\shopping\ecommerce\pageObjects\CartPage.java
+D:\Automation\ECommerceShop\src\test\java\com\shopping\ecommerce\pageObjects\HomePage.java
+D:\Automation\ECommerceShop\src\test\java\com\shopping\ecommerce\pageObjects\Login_SignUpPage.java
+D:\Automation\ECommerceShop\src\test\java\com\shopping\ecommerce\pageObjects\PaymentsPage.java
+D:\Automation\ECommerceShop\src\test\java\com\shopping\ecommerce\pageObjects\ProductsPage.java
+D:\Automation\ECommerceShop\src\test\java\com\shopping\ecommerce\testCases\BaseClass.java
+D:\Automation\ECommerceShop\src\test\java\com\shopping\ecommerce\testCases\BuyProductTest_TC001.java
+D:\Automation\ECommerceShop\src\test\java\com\shopping\ecommerce\testCases\LoginTest_TC001.java
+D:\Automation\ECommerceShop\src\test\java\com\shopping\ecommerce\testCases\LoginTest_TC002.java
+D:\Automation\ECommerceShop\src\test\java\com\shopping\ecommerce\testCases\SignupTest_TC001.java
+D:\Automation\ECommerceShop\src\test\java\com\shopping\ecommerce\testCases\StandAlone.java
+D:\Automation\ECommerceShop\src\test\java\com\shopping\ecommerce\utilities\FileReader.java
+D:\Automation\ECommerceShop\src\test\java\com\shopping\ecommerce\utilities\GenerateExtentReport.java
+D:\Automation\ECommerceShop\src\test\java\com\shopping\ecommerce\utilities\ReadConfig.java
